@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bHssclOjZCs=",
+  "success": true,
+  "projectFilePath": "/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/InformationSecurity.csproj",
+  "expectedPackageFiles": [
+    "/home/kraiben/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.0/microsoft.aspnetcore.app.ref.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

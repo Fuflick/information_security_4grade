@@ -1,0 +1,15 @@
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/bin/Debug/net10.0/InformationSecurity
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/bin/Debug/net10.0/InformationSecurity.deps.json
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/bin/Debug/net10.0/InformationSecurity.runtimeconfig.json
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/bin/Debug/net10.0/InformationSecurity.dll
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/bin/Debug/net10.0/InformationSecurity.pdb
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/obj/Debug/net10.0/InformationSecurity.GeneratedMSBuildEditorConfig.editorconfig
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/obj/Debug/net10.0/InformationSecurity.AssemblyInfoInputs.cache
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/obj/Debug/net10.0/InformationSecurity.AssemblyInfo.cs
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/obj/Debug/net10.0/InformationSecurity.csproj.CoreCompileInputs.cache
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/obj/Debug/net10.0/InformationSecurity.sourcelink.json
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/obj/Debug/net10.0/InformationSecurity.dll
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/obj/Debug/net10.0/refint/InformationSecurity.dll
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/obj/Debug/net10.0/InformationSecurity.pdb
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/obj/Debug/net10.0/InformationSecurity.genruntimeconfig.cache
+/home/kraiben/Code/ISUCT/InformationSecurity/InformationSecurity/obj/Debug/net10.0/ref/InformationSecurity.dll
