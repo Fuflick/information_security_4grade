@@ -1,37 +1,29 @@
-﻿using System;
-
-class Program
+﻿class Program
 {
     static void Main()
     {
+        // === СТРОКА ===
         string text = "Hello, World!";
-        string key = "ключ";
+        string key = "key";
 
-        /** Шифрование строки */
-        byte[] encrypted = SecondLab.Encrypt(text, key);
+        string encrypted = ThirdLab.EncryptString(text, key);
+        string decrypted = ThirdLab.DecryptString(encrypted, key);
 
-        string encryptedBase64 = Convert.ToBase64String(encrypted);
-        Console.WriteLine("Зашифрованный текст:");
-        Console.WriteLine(encryptedBase64);
+        Console.WriteLine("Исходный: " + text);
+        Console.WriteLine("Зашифрованный: " + encrypted);
+        Console.WriteLine("Расшифрованный: " + decrypted);
 
-        /** Дешифрование строки */
-        byte[] encryptedBytes = Convert.FromBase64String(encryptedBase64);
-        string decrypted = SecondLab.Decrypt(encryptedBytes, key);
-
-        Console.WriteLine("\nРасшифрованный текст:");
-        Console.WriteLine(decrypted);
-
-        /** Работа с файлами */
+        // === ФАЙЛ ===
         string inputFile = "input.txt";
         string encryptedFile = "encrypted.bin";
         string decryptedFile = "decrypted.txt";
 
-        /** Шифруем файл */
-        SecondLab.EncryptFile(inputFile, encryptedFile, key);
-        Console.WriteLine("\nФайл зашифрован");
+        // создадим тестовый файл
+        File.WriteAllText(inputFile, "Пример текста для файла");
 
-        /** Дешифруем файл */
-        SecondLab.DecryptFile(encryptedFile, decryptedFile, key);
-        Console.WriteLine("Файл расшифрован");
+        ThirdLab.EncryptFile(inputFile, encryptedFile, key);
+        ThirdLab.DecryptFile(encryptedFile, decryptedFile, key);
+
+        Console.WriteLine("\nФайл зашифрован и расшифрован.");
     }
 }
